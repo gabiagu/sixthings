@@ -1,0 +1,25 @@
+.activeList {
+	margin: 20px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.activeList .activeList__item {
+	display: block;
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 1px dotted #ddd;
+}
+.activeList .activeList__checkbox {
+	float: left;
+	line-height: 20px;
+	margin-right: 10px;
+	position: relative;
+	top: 5px;
+}
+.activeList__text {
+	float: left;
+	font-size: 18px;
+	color: #454545;
+	line-height: 20px;
+}
