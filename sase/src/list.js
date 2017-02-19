@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import './list.css';
 
+const listItem = (
+  <li className="activeList__item">
+    <input type="checkbox" id="item1" className="activeList__checkbox" /> 
+    <label htmlFor="item1" className="activeList__text">One</label>
+  </li>
+);
+
 class List extends Component {
   render() {
     return (
       /* foobar */
       <ul className="activeList">
-        <li className="activeList__item">
-          <input type="checkbox" id="item1" className="activeList__checkbox" /> 
-          <label htmlFor="item1" className="activeList__text">One</label>
-        </li>
+        {listItem}
         <li className="activeList__item">
           <input type="checkbox" id="item2" className="activeList__checkbox" /> 
           <label htmlFor="item2" className="activeList__text">Two</label>
