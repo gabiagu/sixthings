@@ -13,6 +13,11 @@ const title = (
   <h1>foobar</h1>
 ); */
 
+// title 
+const title = (
+  <h1>foobar</h1>
+);
+
 
 class App extends Component {
   render() {
@@ -27,8 +32,10 @@ class App extends Component {
         </p>
       </div> */
       <div className="wrapper">
-        <h1>foobar x</h1>
+        <h1>The things</h1>
         <List />
+        <h2>Completed</h2>
+        <CompletedList />
       </div>
     );
   }
